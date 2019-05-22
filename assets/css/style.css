@@ -4,15 +4,25 @@
     font-family: 'Lato', sans-serif; /*Letra parrafos*/
 }
 
-.content_title {
+.content_title{
+	font-family: 'Roboto', sans-serif;    
 	position: absolute;
 	top: 50%;
 	left: 0;
 	width: 100%;
 	text-align: center;
 	margin: -5.5vw 0 0 0;
-	z-index: 100;
-	font-size: 8vw;
+	z-index: 100;	
+}
+
+.content_title h2{
+	font-size: 42px;
 	color: white;
 	line-height: 1;
+	border-spacing: 40px;
+}
+
+.highlight{
+	color:#D81159;
+	font-weight: bold;
 }
