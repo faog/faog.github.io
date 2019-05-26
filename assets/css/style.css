@@ -62,7 +62,30 @@
     font-weight: bold;  
 }
 
+
+
+#about, #skills, #projects, #contact{
+	padding: 60px 100px;		
+	width: 100%;		
+}
+
+#about h3, #skills h3, #projects h3 {
+	text-align: center;
+	color:#212F3C;
+	font-weight: bold;
+}
+
 /*ABOUT ME*/
+#profilephoto{
+	width: 70%;
+	height: 70%;
+}
+
+#about h5{
+	text-align: justify;
+	color:#212F3C;
+	font-family: 'Roboto', sans-serif; 			
+}
 
 .skillimage{
 	width:60%;
