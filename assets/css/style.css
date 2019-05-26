@@ -62,14 +62,13 @@
     font-weight: bold;  
 }
 
-
-
 #about, #skills, #projects, #contact{
 	padding: 60px 100px;		
 	width: 100%;		
 }
 
 #about h3, #skills h3, #projects h3 {
+	padding-bottom:40px;
 	text-align: center;
 	color:#212F3C;
 	font-weight: bold;
@@ -87,7 +86,25 @@
 	font-family: 'Roboto', sans-serif; 			
 }
 
-.skillimage{
+/*SKILLS*/
+
+#skills article img{
+	padding: 10px;
+	display:block;
+	margin:auto;
 	width:60%;
 	height:60%;
+}
+
+#skills article h5{
+	text-align: center;
+	color:#212F3C;	
+}
+
+#skills article h6{
+	text-align: center;
+	color:#212F3C;	
+	font-family: 'Roboto', sans-serif; 	
+	margin-bottom: 50px;
+
 }
