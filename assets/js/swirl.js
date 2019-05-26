@@ -135,12 +135,11 @@ function createCanvas() {
 		b: document.createElement('canvas')
 	};
 	canvas.b.style = `
-		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 100%;
-	`;
+    height: 100vh;
+    `;
 	container.appendChild(canvas.b);
 	ctx = {
 		a: canvas.a.getContext('2d'),

@@ -4,6 +4,10 @@
     font-family: 'Lato', sans-serif; /*Letra parrafos*/
 }
 
+.content--canvas{
+	background: hsla(260,40%,5%,1);
+}
+
 .content_title{
 	font-family: 'Roboto', sans-serif;    
 	position: absolute;
@@ -26,3 +30,16 @@
 	color:#D81159;
 	font-weight: bold;
 }
+
+.flex{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items:flex-end;
+	position: fixed;
+	z-index:-10000;
+	padding:0px 100px;
+	background: hsla(260,40%,5%,1);
+}
+
+
