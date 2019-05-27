@@ -108,3 +108,79 @@
 	margin-bottom: 50px;
 
 }
+
+/*PROJECTS*/
+
+.flexcards{
+	display:flex;
+	flex-direction: row;
+}
+.card{
+	margin:20px;
+	width: 100%;
+}
+
+.card-image img{
+	width:60% !important;
+}
+.card-action a{
+	color:#D81159 !important;
+}
+
+/*CONTACT*/
+
+#contact{
+	background: hsla(260,40%,5%,1);
+	margin: -5.5vw 0 0 0;
+}
+
+#contact h3{
+	padding-bottom:40px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+}
+
+#contact h5{
+	text-align: center;
+	color:white;
+}
+
+#contactflex{
+	display:flex;
+	flex-direction:row;
+
+}
+
+#contactflex a img{
+	width: 20%;
+	height:70%;
+	display:block;
+	margin:auto;
+}
+
+#cv{
+	width: 20%;
+	height:20%;
+	display:block;
+	margin:auto;
+}
+
+footer{
+	background-color:#D81159;
+	height:100%
+}
+
+footer h6{
+	margin:0px;
+	padding: 10px 100px;
+	color:white;
+	text-align:center;
+}
+
+@media screen and (max-width: 980px) {
+	#about, #skills, #projects, #contact{
+		padding: 40px 20px;		
+		width: 100%;		
+	}
+}
