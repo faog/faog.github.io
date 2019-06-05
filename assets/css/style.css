@@ -1,0 +1,179 @@
+*{
+    margin:0px auto;
+    padding: 0px auto;
+    font-family: 'Lato', sans-serif; /*Letra parrafos*/
+}
+
+/*HOME*/
+.content--canvas{
+	background: hsla(260,40%,5%,1);
+}
+
+.content_title{
+	font-family: 'Roboto', sans-serif;    
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	margin: -5.5vw 0 0 0;
+	z-index: 100;	
+}
+
+.content_title h2{
+	font-size: 42px;
+	color: white;
+	line-height: 1;
+	border-spacing: 40px;
+}
+
+.highlight{
+	color:#D81159;
+	font-weight: bold;
+}
+
+.nav-wrapper{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items:flex-end;
+	position: fixed;
+	z-index:-10000;
+	padding:0px 100px;
+	background: hsla(260,40%,5%,1);
+}
+
+#btnabout{
+	width: 190px;
+    height: 45px;
+    margin: 30px 100px;
+    background: transparent;
+    border: 1px solid white ;      
+	font-size: 18px; 	
+    cursor: pointer;
+}
+#btnabout a{
+	color:white;
+}
+
+#btnabout:hover{
+    background: #0496ff;
+    border: 2px solid #0496ff; 
+    font-weight: bold;  
+}
+
+#about, #skills, #projects, #contact{
+	padding: 60px 100px;		
+	width: 100%;		
+}
+
+#about h3, #skills h3, #projects h3 {
+	padding-bottom:40px;
+	text-align: center;
+	color:#212F3C;
+	font-weight: bold;
+}
+
+/*ABOUT ME*/
+#profilephoto{
+	width: 70%;
+	height: 70%;
+}
+
+#about h5{
+	text-align: justify;
+	color:#212F3C;
+	font-family: 'Roboto', sans-serif; 			
+}
+
+/*SKILLS*/
+
+#skills article img{
+	padding: 10px;
+	display:block;
+	margin:auto;
+	width:60%;
+	height:60%;
+}
+
+#skills article h5{
+	text-align: center;
+	color:#212F3C;	
+}
+
+#skills article h6{
+	text-align: center;
+	color:#212F3C;	
+	font-family: 'Roboto', sans-serif; 	
+	margin-bottom: 50px;
+
+}
+
+/*PROJECTS*/
+
+.flexcards{
+	display:flex;
+	flex-direction: row;
+}
+.card{
+	margin:20px;
+	width: 100%;
+}
+
+.card-image img{
+	width:60% !important;
+}
+.card-action a{
+	color:#D81159 !important;
+}
+
+/*CONTACT*/
+
+#contact{
+	background: hsla(260,40%,5%,1);
+	margin: -5.5vw 0 0 0;
+}
+
+#contact h3{
+	padding-bottom:40px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+}
+
+#contact h5{
+	text-align: center;
+	color:white;
+}
+
+#contactflex{
+	display:flex;
+	flex-direction:row;
+
+}
+
+#contactflex a img{
+	width: 20%;
+	height:70%;
+	display:block;
+	margin:auto;
+}
+
+#cv{
+	width: 20%;
+	height:20%;
+	display:block;
+	margin:auto;
+}
+
+footer{
+	background-color:#D81159;
+	height:100%
+}
+
+footer h6{
+	margin:0px;
+	padding: 10px 100px;
+	color:white;
+	text-align:center;
+}
