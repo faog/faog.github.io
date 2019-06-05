@@ -6,7 +6,7 @@
 
 /*HOME*/
 .content--canvas{
-	background: hsla(260,40%,5%,1);
+    background: hsla(260,40%,5%,1);    
 }
 
 .content_title{
@@ -14,7 +14,8 @@
 	position: absolute;
 	top: 50%;
 	left: 0;
-	width: 100%;
+    width: 100%;
+    
 	text-align: center;
 	margin: -5.5vw 0 0 0;
 	z-index: 100;	
