@@ -1,3 +1,4 @@
+// 1. Permite que el nav aparesca después del inicio
 let nav = document.querySelector('nav'); // Identify target
 let ul = document.getElementsByClassName('href');
 
@@ -13,4 +14,12 @@ window.addEventListener('scroll', function(event) { // To listen for event
         nav.style.zIndex=10000;
     }
 });
+
+// 2. Jquery materialize para desplegar el nav en modo celular
+
+    /*JQuery elementos Materialize*/ 
+    $(document).ready(function(){
+        //Navbar
+        $('.sidenav').sidenav(); 
+    });
 
