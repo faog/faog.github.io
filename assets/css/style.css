@@ -210,7 +210,7 @@ footer h6{
 	text-align:center;
 }
 
-/*RESPONSIVO*/ 
+/*RESPONSIVO PORTRAIT*/ 
 @media screen and (max-width: 992px) and (orientation: portrait){
 
 	.content {
@@ -337,7 +337,7 @@ footer h6{
 	/*CONTACT*/
 
 	#contact h3{
-		margin-top:350px!important;
+		margin-top:200px;
 		font-size: 82px;
 	}
 	
@@ -365,8 +365,151 @@ footer h6{
 		
 	footer h6{
 		font-size:48px;
-	}
-	
+	}	
 
 }
+
+/*RESPONSIVO LANDSCAPE*/ 
+@media screen and (max-width: 992px) and (orientation: landscape){
+
+	.content {
+		height: 100vh;
+		justify-content: center;
+	}
+
+    .content_title{
+		top:30%;
+	}	
+
+	#btnabout{
+		width: 200px;
+		height: 60px;			      
+		font-size: 28px; 	
+		cursor: none;
+	}
+
+	nav i.material-icons{
+        font-size:40px;
+        margin-top: 40px;
+	}
+	
+	.sidenav{
+        width: 300px;
+    }
+    .sidenav li a{
+        font-size:24px;
+        margin-top:20px;     
+	}
+	
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+		height: 70px;
+		line-height: 0px;
+	}
+
+	ul:not(.browser-default) {
+		z-index:20000;
+	}
+
+	#about, #skills, #projects, #contact{
+		padding: 60px 80px;					
+	}
+
+	/*ABOUT ME*/
+	#about h3, #skills h3, #projects h3 {
+		font-size: 48px;
+	}
+
+	#profilephoto{
+		width: 30%;
+		height: 30%;
+		display:block;
+		margin:auto;
+	}
+
+	#about h5{
+		font-size:28px;		
+	}
+
+	/*SKILLS*/
+
+	#skills article h5{
+		font-size:32px;
+		font-weight: bold;		
+	}
+
+	#skills article h6{
+		font-size:28px;	
+	}
+
+	#skills article img{		
+		width: 100px;
+		height:100px;
+	}
+	
+	.skillimagelarge{
+		width: 120px!important;		
+	}
+
+	/*PROJECTS*/
+	.card{	
+		margin-bottom:50px;	
+	}
+
+	.card-image img{
+		width:100% !important;
+		height:300px;
+	}
+	.card-action a{		
+		font-size:20px!important;
+		font-weight: bold;
+	}	
+
+	.material-icons {
+		font-size:30px;
+		padding-left:10px;
+	}
+	.card-title{
+		font-size:20px!important;
+	}
+	.card-reveal{
+		font-size:22px!important;		
+		font-weight: normal!important;
+	}
+
+
+	/*CONTACT*/
+
+	#contact h3{	
+		margin-top: 10px;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 48px;
+	}
+	
+	#contact h5{
+		margin-top: 0px;
+		font-size:28px;			
+	}
+	
+	#contactflex a img{		
+		width: 15%;
+		text-align:center;
+	}  
+
+	#linkedin, #github{		
+		text-align: center;	
+	}
+	
+	#cv{		
+		width: 10%;	
+	}
+
+		
+	footer h6{
+		font-size:24px;
+	}	
+
+}
+
+
 
