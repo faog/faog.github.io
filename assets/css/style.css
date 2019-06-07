@@ -175,7 +175,6 @@
 #contactflex{
 	display:flex;
 	flex-direction:row;
-
 }
 
 #linkedin{		
@@ -189,6 +188,8 @@
 #contactflex a img{
 	margin-top:20px;
 	width: 12%;
+	margin-left:10px;
+	margin-right:10px;
 }  
 
 #cv{
