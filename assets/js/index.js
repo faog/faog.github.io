@@ -13,6 +13,7 @@ window.addEventListener('scroll', function(event) { // To listen for event
         nav.style.borderBottom='solid 4px #D81159';
         nav.style.zIndex=10000;
     }
+
 });
 
 // 2. Jquery materialize para desplegar el nav en modo celular
@@ -22,4 +23,14 @@ window.addEventListener('scroll', function(event) { // To listen for event
         //Navbar
         $('.sidenav').sidenav(); 
     });
+
+//
+
+ScrollReveal().reveal('.effect-project')
+
+var options = {
+    animateThreshold: 100,
+    scrollPollInterval: 20
+}
+$('.aniview').AniView(options);
 

@@ -4,6 +4,8 @@
     font-family: 'Lato', sans-serif; /*Letra parrafos*/
 }
 
+
+
 /*HOME*/
 .content--canvas{
     background: hsla(260,40%,5%,1);    
@@ -93,8 +95,13 @@
 	padding: 10px;
 	display:block;
 	margin:auto;
-	width:60%;
-	height:60%;
+	width: 90px;
+	height:90px;
+}
+
+.skillimagelarge{
+	width: 100px!important;
+	
 }
 
 #skills article h5{
@@ -111,18 +118,12 @@
 }
 
 /*PROJECTS*/
-
-.flexcards{
-	display:flex;
-	flex-direction: row;
-}
 .card{
-	margin:20px;
-	width: 100%;
+	padding:10px;	
 }
 
 .card-image img{
-	width:60% !important;
+	width:80% !important;
 }
 .card-action a{
 	color:#D81159 !important;
@@ -187,9 +188,22 @@ footer h6{
 }
 
 /*RESPONSIVO*/ 
-@media (max-width: 992px) and (orientation: Portrait){
-	.content_title h2{
-		font-size: 72px;
+@media screen and (max-width: 992px) and (orientation: Portrait){
+
+	.content {
+		height: 100vh;
+		justify-content: center;
+	}
+
+	canvas {
+		height:100vmax;
+		width:100%;
+	}
+    .content_title{
+		top:30%;
+	}
+	.content_title h2{		
+		font-size: 100px;
 	}
 
 	#btnabout{
@@ -222,4 +236,30 @@ footer h6{
 		z-index:20000;
 	}
 
+	#about, #skills, #projects, #contact{
+		padding: 60px 50px;					
+	}
+
+	#about h3, #skills h3, #projects h3 {
+		font-size: 72px;
+	}
+
+	#skills article img{
+		padding: 10px;
+		display:block;
+		margin:auto;
+		width: 150px;
+		height:150px;
+	}
+	
+	.skillimagelarge{
+		width: 170px!important;		
+	}
+
+	#skills article h5{
+		text-align: center;
+		color:#212F3C;	
+	}
+
 }
+
