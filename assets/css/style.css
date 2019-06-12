@@ -1,7 +1,7 @@
 *{
     margin:0px auto;
     padding: 0px auto;
-    font-family: 'Lato', sans-serif; /*Letra parrafos*/
+	font-family: 'Lato', sans-serif; /*Letra parrafos*/	
 }
 
 /*HOME*/
@@ -165,10 +165,10 @@
 
 /*CONTACT*/
 
-#contact{
-	background: hsla(260,40%,5%,1);
-	margin: -5.5vw 0 0 0;
+#contact{	
+	background: hsla(260,40%,5%,1);	
 	height:100vh;
+	margin-bottom: 0px;
 }
 
 #contact h3{
@@ -497,6 +497,10 @@ footer h6{
 		font-weight: normal!important;
 	}
 
+	.card-reveal p{
+		font-size:16px!important;
+	}
+
 
 	/*CONTACT*/
 
@@ -524,7 +528,6 @@ footer h6{
 	#cv{		
 		width: 10%;	
 	}
-
 		
 	footer h6{
 		font-size:24px;
