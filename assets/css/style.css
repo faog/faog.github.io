@@ -78,8 +78,9 @@
 
 /*ABOUT ME*/
 #profilephoto{
-	width: 70%;
-	height: 70%;
+	width: 100%;
+	height: 100%;
+	border-radius: 10%;
 }
 
 #about h5{
@@ -282,14 +283,19 @@ footer h6{
 	}
 
 	#profilephoto{
-		width: 50%;
-		height: 50%;
+		width: 80%;
+		height: 80%;
 		display:block;
 		margin:auto;
 	}
 
 	#about h5{
 		font-size:56px;		
+		margin-top:10px;
+	}
+
+	#about article{
+		margin-top: 20px;
 	}
 
 	/*SKILLS*/
@@ -437,8 +443,8 @@ footer h6{
 	}
 
 	#profilephoto{
-		width: 30%;
-		height: 30%;
+		width: 70%;
+		height: 70%;
 		display:block;
 		margin:auto;
 	}
